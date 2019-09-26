@@ -74,6 +74,7 @@ header {
     padding: 0.5em;
     padding-top: 2em;
 }
+
 #pairing {
     grid-area: pairing; /* keep */
     background: #a8e8ff; /* keep */
