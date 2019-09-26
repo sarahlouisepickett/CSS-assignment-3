@@ -134,3 +134,34 @@ a:hover {
 }
 
 /* media queries below - only 1 is needed */
+@media screen and (max-width: 650px) {
+
+  #container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8,auto);
+    grid-template-areas:
+      "header header"
+      "arial georgia"
+      "pairing pairing"
+      "bobwhite-quail bobwhite-quail"
+      "readability readability"
+      "line-length line-length"
+      "helvetica helvetica"
+      "typeface typeface"
+      "footer footer"
+}
+
+header img {
+  display: none;
+}
+header {
+  padding: 1rem;
+}
+#helvetica {
+  margin:0;
+}
+#arial {
+  padding-left: 2rem;
+}
+}
