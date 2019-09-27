@@ -82,9 +82,10 @@ header {
 #pairing {
     grid-area: pairing; /* keep */
     background: #a8e8ff; /* keep */
-    padding-top: 2rem;
+    padding-left: 4rem;
     margin: 0;
-    font-size: 1.2rem;
+    padding-top: 2rem;
+    font-size: 1.3rem;
     line-height: 1.7rem;
 }
 #bobwhite-quail {
@@ -97,8 +98,8 @@ header {
 #readability {
     grid-area: readability; /* keep */
     background: #d2f4ff; /* keep */
-    padding: 2rem;
-    font-size: 1.2rem;
+    padding: 1rem;
+    font-size: 1.3rem;
 
 }
 #line-length {
@@ -107,9 +108,8 @@ header {
     padding-top: 0rem;
     padding: 1rem;
     margin-bottom: 0rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
-
 #helvetica {
     grid-area: helvetica; /* keep */
     background: #fff; /* keep */
@@ -122,7 +122,7 @@ header {
     color: #d2f4ff; /* keep */
     background: #5598b2; /* keep */
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-shadow: 2px 2px 3px #C0C0C0;
 
 }
@@ -134,6 +134,7 @@ footer {
     grid-area: footer; /* keep */
     background: #b2988a; /* keep */
     padding: 1rem;
+    font-size: 1.3rem;
 }
 /* end of all 10 grid items */
 
