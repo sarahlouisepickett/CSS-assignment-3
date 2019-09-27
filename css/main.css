@@ -62,19 +62,19 @@ header {
     background: #fff; /* keep */
     text-align: center;
     font-size: 1.5rem;
+    padding: 1rem;
 }
 #arial {
     grid-area: arial; /* keep */
     background: #a8e8ff; /* keep */
-    padding: 0.5rem;
-    padding-top: 2rem;
+    padding: 1rem;
     font-size: 0.8rem;
+
 }
 #georgia {
     grid-area: georgia; /* keep */
     background: #a8e8ff; /* keep */
-    padding: 0.5rem;
-    padding-top: 2rem;
+    padding: 1rem;
     font-size: 0.8rem;
     margin: 0;
 }
@@ -82,12 +82,12 @@ header {
 #pairing {
     grid-area: pairing; /* keep */
     background: #a8e8ff; /* keep */
-    padding-left: 4rem;
-    margin: 0;
-    padding-top: 2rem;
+    padding: 2rem;
     font-size: 1.3rem;
+    margin: 0;
     line-height: 1.7rem;
 }
+
 #bobwhite-quail {
     grid-area: bobwhite-quail; /* keep */
     background: #d2f4ff; /* keep */
@@ -98,23 +98,27 @@ header {
 #readability {
     grid-area: readability; /* keep */
     background: #d2f4ff; /* keep */
-    padding: 1rem;
     font-size: 1.3rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
 
 }
 #line-length {
     grid-area: line-length; /* keep */
     background: #d2f4ff; /* keep */
+    padding-left:1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
     padding-top: 0rem;
-    padding: 1rem;
-    margin-bottom: 0rem;
     font-size: 1.3rem;
   }
+
 #helvetica {
     grid-area: helvetica; /* keep */
     background: #fff; /* keep */
-    padding: 2rem;
-    margin: 2rem;
+    margin: 3rem;
+    padding: 1rem;
   }
 
 #typeface {
@@ -135,6 +139,7 @@ footer {
     background: #b2988a; /* keep */
     padding: 1rem;
     font-size: 1.3rem;
+    text-align: center;
 }
 /* end of all 10 grid items */
 
@@ -186,7 +191,8 @@ header {
 #readability {
   padding: 1rem;
 }
-}
+
 #pairing {
   padding: 1rem;
+}
 }
