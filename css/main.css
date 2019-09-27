@@ -61,65 +61,79 @@ header {
     grid-area: header; /* keep */
     background: #fff; /* keep */
     text-align: center;
+    font-size: 1.5rem;
 }
 #arial {
     grid-area: arial; /* keep */
     background: #a8e8ff; /* keep */
-    padding: 0.5em;
-    padding-top: 2em;
+    padding: 0.5rem;
+    padding-top: 2rem;
+    font-size: 0.8rem;
 }
 #georgia {
     grid-area: georgia; /* keep */
     background: #a8e8ff; /* keep */
-    padding: 0.5em;
-    padding-top: 2em;
+    padding: 0.5rem;
+    padding-top: 2rem;
+    font-size: 0.8rem;
+    margin: 0;
 }
 
 #pairing {
     grid-area: pairing; /* keep */
     background: #a8e8ff; /* keep */
-    margin:0;
-    padding: 2em;
+    padding-top: 2rem;
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
 }
 #bobwhite-quail {
     grid-area: bobwhite-quail; /* keep */
     background: #d2f4ff; /* keep */
-    padding: 3em;
+    padding: 2rem;
+    font-size: 0.8rem;
 
 }
 #readability {
     grid-area: readability; /* keep */
     background: #d2f4ff; /* keep */
-    padding: 1em;
+    padding: 2rem;
+    font-size: 1.2rem;
 
 }
 #line-length {
     grid-area: line-length; /* keep */
     background: #d2f4ff; /* keep */
-    padding: 1em;
-    margin-bottom: 0em;
-
+    padding-top: 0rem;
+    padding: 1rem;
+    margin-bottom: 0rem;
+    font-size: 1.2rem;
   }
+
 #helvetica {
     grid-area: helvetica; /* keep */
     background: #fff; /* keep */
-    padding: 2em;
-    margin: 2em;
+    padding: 2rem;
+    margin: 2rem;
   }
 
 #typeface {
     grid-area: typeface; /* keep */
     color: #d2f4ff; /* keep */
     background: #5598b2; /* keep */
-    padding: 1em;
-    text-shadow: 1px 1px 3px #C0C0C0;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 3px #C0C0C0;
 
+}
+ #typeface a {
+  text-shadow: none;
 }
 
 footer {
     grid-area: footer; /* keep */
     background: #b2988a; /* keep */
-    padding: 1em;
+    padding: 1rem;
 }
 /* end of all 10 grid items */
 
@@ -161,7 +175,17 @@ header {
 #helvetica {
   margin:0;
 }
-#arial {
-  padding-left: 2rem;
+
+#bobwhite-quail {
+  padding: 1rem;
 }
+#line-length {
+  padding: 1rem;
+}
+#readability {
+  padding: 1rem;
+}
+}
+#pairing {
+  padding: 1rem;
 }
