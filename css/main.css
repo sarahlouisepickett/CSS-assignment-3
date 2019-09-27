@@ -16,9 +16,13 @@ body {
 h1, h2 {
     font-family: 'Merriweather','Palatino', serif;
 }
+h2 {
+  margin: 0;
+}
 
 #tagline {
     font-style: italic;
+    font-size: 2rem;
 }
 /* all images will stretch to fill their containing element */
 img {
@@ -105,8 +109,9 @@ header {
     grid-area: readability; /* keep */
     background: #d2f4ff; /* keep */
     font-size: 1.3rem;
-    padding-right: 2rem;
+    padding-right: 2.5rem;
     padding-left: 1rem;
+    padding-top: 3rem;
 
 }
 #line-length {
@@ -114,7 +119,7 @@ header {
     background: #d2f4ff; /* keep */
     padding-left:1rem;
     padding-bottom: 2rem;
-    padding-right: 2rem;
+    padding-right: 2.5rem;
     padding-top: 2rem;
     font-size: 1.3rem;
   }
@@ -123,7 +128,7 @@ header {
     grid-area: helvetica; /* keep */
     background: #fff; /* keep */
     margin: 3rem;
-    padding: 1rem;
+    padding: 2rem;
   }
 
 #typeface {
@@ -131,6 +136,7 @@ header {
     color: #d2f4ff; /* keep */
     background: #5598b2; /* keep */
     padding: 1rem;
+    padding-top: 3rem;
     padding-left: 3rem;
     font-size: 1.4rem;
     text-shadow: 2px 2px 3px #C0C0C0;
@@ -207,5 +213,8 @@ header {
 }
 #pairing {
   padding: 1rem;
+}
+footer {
+  text-align: left;
 }
 }
